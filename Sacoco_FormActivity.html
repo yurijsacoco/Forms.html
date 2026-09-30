@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Activity</title>
+</head>
+<body style="background-color: rgb(220, 218, 240);">
+    <h1 style="text-align: center;">HTML Form</h1>
+
+    <form style="width: 67%; margin: auto;" action="#" method="post">
+        
+        <fieldset>
+            <legend>Personal Information</legend>
+            
+            <p>
+                <label for="fullName">Name:</label><br>
+                <input type="text" id="fullName" name="user_name">
+            </p>
+            
+            <p>
+                <label for="userEmail">Email:</label><br>
+                <input type="email" id="userEmail" name="user_email">
+            </p>
+        </fieldset>
+
+        <fieldset>
+            <legend>Gender</legend>
+            <p>
+                <input type="radio" id="male" name="gender" value="Male">
+                <label for="male">Male</label><br>
+                
+                <input type="radio" id="female" name="gender" value="Female">
+                <label for="female">Female</label><br>
+                
+                <input type="radio" id="other" name="gender" value="Other">
+                <label for="other">Other</label>
+            </p>
+        </fieldset>
+
+        <fieldset>
+            <legend>Hobbies</legend>
+            <p>
+                <input type="checkbox" id="reading" name="hobbies" value="Reading">
+                <label for="reading">Sports</label><br>
+                
+                <input type="checkbox" id="traveling" name="hobbies" value="Traveling">
+                <label for="traveling">Reading</label><br>
+                
+                <input type="checkbox" id="sports" name="hobbies" value="Sports">
+                <label for="sports">Cooking</label><br>
+
+                <input type="checkbox" id="sports" name="hobbies" value="Sports">
+                <label for="sports">Gaming</label>
+            </p>
+        </fieldset>
+
+        <fieldset>
+            <legend>Feedback</legend>
+            <p>
+                <label for="comments">Additional Comments:</label><br>
+                <textarea id="comments" name="user_comments" rows="5" cols="40"></textarea>
+            </p>
+        </fieldset>
+
+        <p>
+            <input type="submit" value="Submit">
+        </p>
+
+    </form>
+
+</body>
+</html>
